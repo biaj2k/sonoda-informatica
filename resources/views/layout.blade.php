@@ -33,7 +33,6 @@
             height: 100%;
         }
 
-
         body {
             margin: 0;
             font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, Arial, Helvetica, sans-serif;
