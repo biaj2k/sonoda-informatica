@@ -241,7 +241,7 @@
 <header class="nav" role="banner">
     <div class="container nav-inner">
         <a href="#home" class="brand" aria-label="Página inicial Sonoda Informática">
-            <img src="assets/images/sonodainfo-logo.png" alt="Logotipo Sonoda Informática" class="brand-logo" width="260" />
+            <img src="../images/sonodainfo-logo.png" alt="Logotipo Sonoda Informática" class="brand-logo" width="260" />
         </a>
         <nav class="nav-links" aria-label="Navegação principal">
             <a href="#servicos">Serviços</a>
@@ -269,7 +269,7 @@
             <a href="#contato" class="side-link">Contato</a>
             <a href="https://maps.app.goo.gl/dTATYm74Ez36B6j69" target="_blank" rel="noopener" class="side-link">Localização</a>
             <a class="side-link cta" href="https://wa.me/551532725929?text=Olá%20Sonoda!%20Preciso%20de%20assistência%20técnica." target="_blank" rel="noopener">
-                <img src="assets/icons/whatsapp.svg" alt="" class="wa-ico" aria-hidden="true" /> Falar no WhatsApp
+                <img src="../icons/whatsapp.svg" alt="" class="wa-ico" aria-hidden="true" /> Falar no WhatsApp
             </a>
         </nav>
     </div>
@@ -282,12 +282,12 @@
 <footer class="footer">
     <div class="container footer-flex">
         <div class="ft-brand">
-            <img src="assets/images/sonodainfo-logo.png" alt="Sonoda Informática" width="275"  loading="lazy" />
+            <img src="../images/sonodainfo-logo.png" alt="Sonoda Informática" width="275"  loading="lazy" />
         </div>
         <div class="ft-social" aria-label="Redes sociais">
-            <a href="https://www.instagram.com/sonodainformatica/" aria-label="Instagram"><img src="assets/icons/instagram.svg" width="30" height="30" alt="" aria-hidden="true" /></a>
-            <a href="https://pt-br.facebook.com/sonodainformatica" aria-label="Facebook"><img src="assets/icons/facebook.svg" width="30" height="30" alt="" aria-hidden="true" /></a>
-            <a class="ft-whatsapp" href="https://wa.me/551532725929" target="_blank" rel="noopener"><img src="assets/icons/whatsapp.svg" width="30" height="30" alt="" aria-hidden="true" /> WhatsApp</a>
+            <a href="https://www.instagram.com/sonodainformatica/" aria-label="Instagram"><img src="../icons/instagram.svg" width="30" height="30" alt="" aria-hidden="true" /></a>
+            <a href="https://pt-br.facebook.com/sonodainformatica" aria-label="Facebook"><img src="../icons/facebook.svg" width="30" height="30" alt="" aria-hidden="true" /></a>
+            <a class="ft-whatsapp" href="https://wa.me/551532725929" target="_blank" rel="noopener"><img src="../icons/whatsapp.svg" width="30" height="30" alt="" aria-hidden="true" /> WhatsApp</a>
         </div>
         <div class="ft-copy">© 2025 Sonoda Informática LTDA - CNPJ: 00.824.398/0001-80. Todos os direitos reservados.</div>
     </div>

@@ -2,9 +2,52 @@
 
 @push('styles')
     <style>
+
+        :root {
+            --bg: #eef7ff;
+            --surface: #ffffff;
+
+            --primary-50: #eaf6ff;
+            --primary-100: #cde8e5;
+            --primary-300: #7ab2b2;
+            --primary-500: #4d869c;
+
+            --accent: #6fcf97;
+            --text: #334155;
+            --muted: #6b7280;
+            --border: #e5e7eb;
+
+            --shadow: 0 6px 24px rgba(13,50,77,.08), 0 2px 8px rgba(13,50,77,.06);
+            --radius: 18px;
+            --nav-h: 72px;
+        }
         /* =========================
    HERO
    ========================= */
+
+        * {
+            box-sizing: border-box;
+        }
+
+        html,
+        body {
+            height: 100%;
+        }
+
+        body {
+            margin: 0;
+            font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, Arial, Helvetica, sans-serif;
+            color: var(--text);
+            background: var(--bg);
+            padding-top: var(--nav-h);
+            scroll-padding-top: var(--nav-h);
+        }
+
+        .container {
+            max-width: 1180px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
 
 
         .section {
@@ -24,6 +67,8 @@
             color: var(--muted);
             margin: 0 0 28px;
         }
+
+
         .hero {
             padding: 56px 0 32px;
         }
@@ -698,7 +743,7 @@
                     <p>Manutenção de <strong>computadores</strong>, <strong>notebooks</strong>, <strong>impressoras</strong> e <strong>nobreaks</strong>. MONTAGEM e UPGRADES.</p>
                     <div class="hero-cta">
                         <a class="btn btn-primary" href="https://wa.me/551532725929?text=Olá%20Sonoda!%20Quero%20um%20orçamento.">
-                            <img src="assets/icons/whatsapp.svg" alt="" class="wa-ico" aria-hidden="true" /> Falar no WhatsApp
+                            <img src="../icons/whatsapp.svg" alt="" class="wa-ico" aria-hidden="true" /> Falar no WhatsApp
                         </a>
                     </div>
                     <ul class="badges">
@@ -708,7 +753,7 @@
                     </ul>
                 </div>
                 <div class="hero-art">
-                    <img src="assets/icons/hero-repair.svg" alt="Ilustração de técnico realizando manutenção" width="520" height="360" />
+                    <img src="../icons/hero-repair.svg" alt="Ilustração de técnico realizando manutenção" width="520" height="360" />
                 </div>
             </div>
         </section>
@@ -720,22 +765,22 @@
                 <p class="section-sub">Manutenção de computadores, notebooks, impressoras e nobreaks.</p>
                 <div class="grid-cards">
                     <article class="card">
-                        <img class="card-svg" src="assets/icons/svc-pc.svg" alt="Manutenção de computador desktop" width="48" height="48" />
+                        <img class="card-svg" src="../icons/svc-pc.svg" alt="Manutenção de computador desktop" width="48" height="48" />
                         <h3>Manutenção de Computador</h3>
                         <p>Formatação, upgrade, troca de HD/SSD, limpeza e remoção de malware.</p>
                     </article>
                     <article class="card">
-                        <img class="card-svg" src="assets/icons/svc-notebook.svg" alt="Manutenção de notebook" width="48" height="48" />
+                        <img class="card-svg" src="../icons/svc-notebook.svg" alt="Manutenção de notebook" width="48" height="48" />
                         <h3>Manutenção de Notebook</h3>
                         <p>Troca de tela/teclado/bateria, limpeza de cooler e pasta térmica.</p>
                     </article>
                     <article class="card">
-                        <img class="card-svg" src="assets/icons/svc-printer.svg" alt="Conserto de impressoras" width="48" height="48" />
+                        <img class="card-svg" src="../icons/svc-printer.svg" alt="Conserto de impressoras" width="48" height="48" />
                         <h3>Impressoras</h3>
                         <p>Correção de atolamentos, limpeza e manutenção preventiva.</p>
                     </article>
                     <article class="card">
-                        <img class="card-svg" src="assets/icons/svc-nobreak.svg" alt="Manutenção de nobreak" width="48" height="48" />
+                        <img class="card-svg" src="../icons/svc-nobreak.svg" alt="Manutenção de nobreak" width="48" height="48" />
                         <h3>Nobreak</h3>
                         <p>Troca de baterias, calibração e verificação eletrônica.</p>
                     </article>
@@ -755,12 +800,12 @@
                     <div class="carousel small" aria-label="Computadores e Notebooks">
                         <button class="car-btn prev" aria-label="Item anterior">&#10094;</button>
                         <div class="car-viewport"><div class="car-track">
-                                <div class="car-item"><img src="assets/icons/prod-pc.svg" alt="Computadores e desktops" /><h3>Computadores</h3></div>
-                                <div class="car-item"><img src="assets/icons/prod-notebook.svg" alt="Notebooks e ultrabooks" /><h3>Notebooks</h3></div>
-                                <div class="car-item"><img src="assets/icons/prod-pc.svg" alt="Computadores e desktops" /><h3>Computadores</h3></div>
-                                <div class="car-item"><img src="assets/icons/prod-notebook.svg" alt="Notebooks e ultrabooks" /><h3>Notebooks</h3></div>
-                                <div class="car-item"><img src="assets/icons/prod-pc.svg" alt="Computadores e desktops" /><h3>Computadores</h3></div>
-                                <div class="car-item"><img src="assets/icons/prod-notebook.svg" alt="Notebooks e ultrabooks" /><h3>Notebooks</h3></div>
+                                <div class="car-item"><img src="../icons/prod-pc.svg" alt="Computadores e desktops" /><h3>Computadores</h3></div>
+                                <div class="car-item"><img src="../icons/prod-notebook.svg" alt="Notebooks e ultrabooks" /><h3>Notebooks</h3></div>
+                                <div class="car-item"><img src="../icons/prod-pc.svg" alt="Computadores e desktops" /><h3>Computadores</h3></div>
+                                <div class="car-item"><img src="../icons/prod-notebook.svg" alt="Notebooks e ultrabooks" /><h3>Notebooks</h3></div>
+                                <div class="car-item"><img src="../icons/prod-pc.svg" alt="Computadores e desktops" /><h3>Computadores</h3></div>
+                                <div class="car-item"><img src="../icons/prod-notebook.svg" alt="Notebooks e ultrabooks" /><h3>Notebooks</h3></div>
                             </div></div>
                         <button class="car-btn next" aria-label="Próximo item">&#10095;</button>
                         <div class="car-dots" role="tablist" aria-label="Seleção de slide"></div>
@@ -769,12 +814,12 @@
                     <div class="carousel small" aria-label="Impressoras e Nobreaks">
                         <button class="car-btn prev" aria-label="Item anterior">&#10094;</button>
                         <div class="car-viewport"><div class="car-track">
-                                <div class="car-item"><img src="assets/icons/prod-printer.svg" alt="Impressoras" /><h3>Impressoras</h3></div>
-                                <div class="car-item"><img src="assets/icons/prod-nobreak.svg" alt="Nobreaks" /><h3>Nobreaks</h3></div>
-                                <div class="car-item"><img src="assets/icons/prod-printer.svg" alt="Impressoras" /><h3>Impressoras</h3></div>
-                                <div class="car-item"><img src="assets/icons/prod-nobreak.svg" alt="Nobreaks" /><h3>Nobreaks</h3></div>
-                                <div class="car-item"><img src="assets/icons/prod-printer.svg" alt="Impressoras" /><h3>Impressoras</h3></div>
-                                <div class="car-item"><img src="assets/icons/prod-nobreak.svg" alt="Nobreaks" /><h3>Nobreaks</h3></div>
+                                <div class="car-item"><img src="../icons/prod-printer.svg" alt="Impressoras" /><h3>Impressoras</h3></div>
+                                <div class="car-item"><img src="../icons/prod-nobreak.svg" alt="Nobreaks" /><h3>Nobreaks</h3></div>
+                                <div class="car-item"><img src="../icons/prod-printer.svg" alt="Impressoras" /><h3>Impressoras</h3></div>
+                                <div class="car-item"><img src="../icons/prod-nobreak.svg" alt="Nobreaks" /><h3>Nobreaks</h3></div>
+                                <div class="car-item"><img src="../icons/prod-printer.svg" alt="Impressoras" /><h3>Impressoras</h3></div>
+                                <div class="car-item"><img src="../icons/prod-nobreak.svg" alt="Nobreaks" /><h3>Nobreaks</h3></div>
                             </div></div>
                         <button class="car-btn next" aria-label="Próximo item">&#10095;</button>
                         <div class="car-dots" role="tablist" aria-label="Seleção de slide"></div>
@@ -792,12 +837,12 @@
                     </p>
                     <div class="btn-center">
                         <a class="btn btn-primary btn-lg" href="https://wa.me/551532725929?text=Olá%20Sonoda!%20Preciso%20de%20assistência%20técnica.">
-                            <img src="assets/icons/whatsapp.svg" alt="" class="wa-ico" aria-hidden="true" /> FAÇA SEU PEDIDO PELO WHATS AGORA!
+                            <img src="../icons/whatsapp.svg" alt="" class="wa-ico" aria-hidden="true" /> FAÇA SEU PEDIDO PELO WHATS AGORA!
                         </a>
                     </div>
                 </div>
                 <div class="about-art">
-                    <img src="assets/images/toner.png" class="img-toner" alt="Entrega de toner de impressora" width="500" height="300" loading="lazy" />
+                    <img src="../images/toner.png" class="img-toner" alt="Entrega de toner de impressora" width="500" height="300" loading="lazy" />
                 </div>
             </div>
         </section>
@@ -835,13 +880,13 @@
                     <h2>Sobre a Sonoda Informática</h2>
                     <p>A Sonoda Informática nasceu do sonho de Eduardo Sonoda, que desde jovem atua na área de tecnologia e chegou a morar e trabalhar no Japão. De volta ao Brasil, fundou a Game On, tornando-se referência regional. Com o tempo, nossas atividades evoluíram além do aluguel de jogos e reparos em videogames, e adotamos o nome atual: Sonoda Informática. Desde 1994, em Itapetininga, estamos presentes no dia a dia de empresas e famílias, oferecendo soluções completas em tecnologia.</p>
                     <ul class="list-check">
-                        <li><img src="assets/icons/check-square-fill.svg" alt="" aria-hidden="true">Atendimento em Itapetininga e região</li>
-                        <li><img src="assets/icons/check-square-fill.svg" alt="" aria-hidden="true">Garantia Sonoda</li>
-                        <li><img src="assets/icons/check-square-fill.svg" alt="" aria-hidden="true">Laboratório próprio</li>
+                        <li><img src="../icons/check-square-fill.svg" alt="" aria-hidden="true">Atendimento em Itapetininga e região</li>
+                        <li><img src="../icons/check-square-fill.svg" alt="" aria-hidden="true">Garantia Sonoda</li>
+                        <li><img src="../icons/check-square-fill.svg" alt="" aria-hidden="true">Laboratório próprio</li>
                     </ul>
                 </div>
                 <div class="about-art">
-                    <img src="assets/icons/about-tools.svg" alt="Ferramentas de manutenção" width="520" height="360" />
+                    <img src="../icons/about-tools.svg" alt="Ferramentas de manutenção" width="520" height="360" />
                 </div>
             </div>
         </section>
@@ -908,7 +953,7 @@
                     <p>Chame no WhatsApp e descreva o equipamento e o problema.</p>
                     <div class="btn-center">
                         <a class="btn btn-primary btn-lg" href="https://wa.me/551532725929?text=Olá%20Sonoda!%20Preciso%20de%20assistência%20técnica.">
-                            <img src="assets/icons/whatsapp.svg" alt="" class="wa-ico" aria-hidden="true" /> Falar no WhatsApp
+                            <img src="../icons/whatsapp.svg" alt="" class="wa-ico" aria-hidden="true" /> Falar no WhatsApp
                         </a>
                     </div>
                 </div>
